@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: #f1be32;
+  --golden-yellow: #feac32;
+  --dark-purple: #110815;
+  --light-grey: #efefef;
+}
+
+body {
+  background-color: var(--dark-purple);
+  color: var(--light-grey);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-information-container {
+  margin: 15px 0 25px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  color: var(--dark-purple);
+  background-color: var(--light-grey);
+  background-image: linear-gradient(#aab7b8, #7f8c8d);
+  border-color: var(--dark-grey);
+  border-width: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+  background-image: linear-gradient(#47adb4, #3cd4df);
+}
